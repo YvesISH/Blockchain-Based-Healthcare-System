@@ -10,13 +10,11 @@ This project is a decentralized healthcare system built on the Ethereum blockcha
 - **Ethereum Smart Contracts** – Data is stored in an immutable and decentralized manner.  
 - **Security & Transparency** – Utilizes Solidity smart contracts with access control.  
 
-## 🛠 Tech Stack  
+## Tech Stack  
 - **Solidity** – Smart contract development  
 - **Hardhat** – Ethereum development and testing framework  
 - **Ethers.js** – Interacting with the blockchain  
 - **Node.js** – Backend integration  
-- **React.js** (Optional) – Frontend for UI  
-- **IPFS** (Optional) – Decentralized file storage  
 
 ## 📂 Project Structure  
 ```bash
@@ -30,10 +28,9 @@ This project is a decentralized healthcare system built on the Ethereum blockcha
 │── 📜 README.md             # Project documentation
 
 
-## 🔧 Installation  
+## Installation  
 
 ### Clone the Repository  
-```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/blockchain-healthcare.git 
 cd blockchain-healthcare
 
