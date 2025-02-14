@@ -18,9 +18,7 @@ This project is a decentralized healthcare system built on the Ethereum blockcha
 - **Solidity** – Smart contract development  
 - **Hardhat** – Ethereum development and testing framework  
 - **Ethers.js** – Interacting with the blockchain  
-- **Node.js** – Backend integration  
-- **React.js (Optional)** – Frontend for UI  
-- **IPFS (Optional)** – Decentralized file storage  
+- **Node.js** – Backend integration   
 
 ---
 
