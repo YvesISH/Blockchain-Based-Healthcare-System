@@ -1,21 +1,19 @@
 require("@nomicfoundation/hardhat-toolbox");
-
+require("dotenv").config();
+const privateKeys = process.env.PRIVATE_KEYS || "";
+const goerliApiKey = process.env.GOERLI_API_KEY;
+const mumbaiApiKey = process.env.MUMBAI_API_KEY;
 module.exports = {
-  solidity: {
-    version: "0.8.0",
-    settings: {
-      optimizer: {
-        enabled: true,
-        runs: 200,
-      },
-    },
-  },
+  solidity: "0.8.18",
   networks: {
-    ganache: {
-      url: "http://127.0.0.1:7545",
-      accounts: {
-        mnemonic: "initial middle normal fever neither people adapt mercy thank slim world fury",
-      },
+    localhost: {},
+    goerli: {
+      url: goerliApiKey,
+      accounts: privateKeys.split(","),
+    },
+    mumbai: {
+      url: mumbaiApiKey,
+      accounts: privateKeys.split(","),
     },
   },
 };
